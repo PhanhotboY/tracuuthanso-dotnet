@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @await Html.PartialAsync("_Banner")
+    
+    @await Html.PartialAsync("_LookupForm")
+    
+    @await Html.PartialAsync("_Textimony")
+</div>

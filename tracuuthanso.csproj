@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
+        <Content Update="Views\Home\_Banner.cshtml">
+            <DependentUpon>Index.cshtml</DependentUpon>
+        </Content>
+        <Content Update="Views\Home\_LookupForm.cshtml">
+          <DependentUpon>Index.cshtml</DependentUpon>
+        </Content>
+        <Content Update="Views\Home\_Textimony.cshtml">
+          <DependentUpon>Index.cshtml</DependentUpon>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\css\button.css" />
+    </ItemGroup>
+
+</Project>

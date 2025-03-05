@@ -1,0 +1,44 @@
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+        <div class="container-fluid p-0">
+            <div class="container">
+                <div class="row">
+                    <a class="navbar-brand p-0" style="width: 150px; height: 45px; overflow: hidden;" asp-area=""
+                       asp-controller="Home" asp-action="Index">
+                        <img src="~/assets/logo-color-min.webp" alt="App logo">
+                    </a>
+
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between"
+                         style="width: fit-content;">
+                        <ul class="navbar-nav flex-grow-1 justify-content-end align-items-center">
+                            @{
+                                var menuItems = new[]
+                                {
+                                    new { Name = "Home", Path = "Privacy" },
+                                    new { Name = "Giới thiệu", Path = "gioi-thieu" },
+                                    new { Name = "Tra Cứu", Path = "tra-cuu" },
+                                    new { Name = "Dịch vụ", Path = "dich-vu" },
+                                    new { Name = "Blog", Path = "blog" },
+                                    new { Name = "Đăng nhập", Path = "dang-nhap" },
+                                    new { Name = "Ngôn ngữ", Path = "ngon-ngu" }
+                                };
+                            }
+                            @foreach (var cat in menuItems)
+                            {
+                                <li class="nav-item mx-2 fw-semibold">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                       asp-action="@cat.Path">@cat.Name <i class="bi bi-chevron-down"
+                                                                           style="font-size: 12px;"></i></a>
+                                </li>
+                            }
+
+                            <li class="nav-item p-2 fw-semibold">
+                                <i class="bi bi-search"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

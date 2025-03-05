@@ -1,0 +1,99 @@
+@model tracuuthanso.Models.ButtonViewModel
+
+<section>
+    <div class="bg" style="background: url(assets/banner.webp) no-repeat center/cover">
+        <div class="container py-5">
+            <section class="row gx-5">
+                <div class="col-4">
+                    <img src="assets/louis.webp" alt="Speaker image">
+                </div>
+
+                <div class="col-8 d-flex flex-column align-items-center justify-content-center text-white fw-bold">
+                    <h2 class="fs-3 fw-semibold">
+                        <span>TRA CỨU THẦN SỐ HỌC</span>
+                        <br>
+                        <span>KHÁM PHÁ BẢN THÂN CÙNG THẦY</span>
+                    </h2>
+
+                    <h1 class="fw-bold"
+                        style="font-size: 76px; letter-spacing: 4px; line-height: 1.6; 
+                        text-shadow: rgba(2,2,2,.2) 5px 7px 3px;">
+                        LOUIS NGUYỄN
+                    </h1>
+
+                    <div class="d-flex border border-white border-2 p-4 fw-normal text-start">
+                        <div class="d-flex gap-3 align-items-center">
+                            <div>
+                                <div class="border rounded-circle border-white text-center"
+                                     style="width: 26px; height: 26px; color: var(--main-text)"
+                                >
+                                    <i class="bi bi-check-lg"></i>
+                                </div>
+                            </div>
+
+                            <p class="m-0">Nhà sáng lập hệ thống thần số học được ứng dụng phổ biến tại Việt Nam</p>
+
+                        </div>
+
+                        <div class="divider mx-4 border-end border-white"></div>
+
+                        <div class="d-flex gap-3 align-items-center">
+                            <div>
+                                <div class="border rounded-circle border-white text-center"
+                                     style="width: 26px; height: 26px; color: var(--main-text)"
+                                >
+                                    <i class="bi bi-check-lg"></i>
+                                </div>
+                            </div>
+
+                            <p class="m-0">Xem chi tiết – chính xác – tin cậy</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row gx-5">
+                @{
+                    var numbers = new[]
+                    {
+                        new { number = "26.564.889+", type = "LƯỢT TRA CỨU" },
+                        new { number = "896.401+", type = "BÁO CÁO XUẤT BẢN" },
+                        new { number = "79.526+", type = "HỌC VIÊN QUA CÁC\nKHÓA HỌC" }
+                    };
+                }
+
+                @foreach (var num in numbers)
+                {
+                    <div class="col-4 rounded-2">
+                        <div class="rounded-2 p-4" style="background-color: var(--sub1-color);
+                            box-shadow: 0 0 10px 0 var(--sub2-color)"
+                        >
+                            <p class="fs-1 fw-semibold m-0" style="color: var(--main-text)">@num.number</p>
+
+                            <p class="fs-5 text-white text-capitalize">@num.type</p>
+                        </div>
+                    </div>
+                }
+            </section>
+
+            <section class="row my-5">
+                <div class="col">
+                    @await Html.PartialAsync("_Button", new ButtonViewModel { Text = "TRA CỨU CÁC CHỈ SỐ CỦA BẠN NGAY" })
+                </div>
+            </section>
+
+            <section class="row justify-content-center">
+                <div class="col-10">
+                    <p class="text-white text-center">
+                        Những nghiên cứu về Thần số học Pitago của <b>Thầy Louis Nguyễn</b> đang mang đến một làn
+                        sóng tích cực trong đại chúng Việt Nam. Không chỉ là các phân tích để giúp mỗi người tìm ra
+                        những tiềm năng thực sự và trả lời được câu hỏi mình là ai trong cuộc đời này, những nghiên cứu
+                        sâu và rộng khắp các lĩnh vực của thầy còn giúp hàng triệu người lựa chọn được con đường đi đúng
+                        đắn, giúp cho những người làm kinh doanh tìm ra định hướng phù hợp trong chiến lược và trong
+                        quản trị doanh nghiệp, quan hệ khách hàng.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

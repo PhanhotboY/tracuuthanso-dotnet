@@ -1,0 +1,176 @@
+<section>
+    <div style="background: url(assets/banner-2.webp) no-repeat center/cover; padding: 4rem 0 12rem">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col text-uppercase fw-bold my-4">
+                    <h2>Công cụ xem Thần số học Online Louis Nguyễn</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-9 form-container">
+                    <form method="post" action="http://localhost:8080">
+                        <div class="mb-3">
+                            <label for="FullName" class="form-label">Họ tên khai sinh:</label>
+                            <input
+                                id="FullName"
+                                class="form-control"
+                                placeholder="Nhập họ tên"/>
+                        </div>
+
+                        <div class="row gx-2">
+                            <div class="mb-3 col-8">
+                                <label for="NickName" class="form-label">
+                                    Tên thường dùng (VD: Louis Nguyen,...):
+                                </label>
+                                <input
+                                    id="NickName"
+                                    class="form-control"
+                                    placeholder="Nhập tên thường dùng"/>
+                            </div>
+
+                            <div class="mb-3 col-4">
+                                <label for="Gender" class="form-label">Giới tính:</label>
+                                <select id="Gender" class="form-select">
+                                    <option value="">(Chọn giới tính)</option>
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                    <option value="Khác">Khác</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Ngày/tháng/năm sinh dương lịch:
+                            </label>
+                            <div class="row gx-2">
+                                <div class="col">
+                                    <input
+                                        type="number"
+                                        id="Day"
+                                        class="form-control"
+                                        placeholder="Ngày"
+                                        min="1"
+                                        max="31"/>
+                                </div>
+                                <div class="col">
+                                    <input
+                                        type="number"
+                                        id="Month"
+                                        class="form-control"
+                                        placeholder="Tháng"
+                                        min="1"
+                                        max="12"/>
+                                </div>
+                                <div class="col">
+                                    <input
+                                        type="number"
+                                        id="Year"
+                                        class="form-control"
+                                        placeholder="Năm sinh"
+                                        min="1900"
+                                        max="2100"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input
+                                id="checkCompatibility"
+                                type="checkbox"
+                                class="form-check-input"
+                            />
+                            <label for="checkCompatibility" class="form-check-label ps-2 w-100 text-start fw-semibold">
+                                Xem tương hợp tình duyên, hôn nhân
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input
+                                id="checkPhoneNumber"
+                                type="checkbox"
+                                class="form-check-input"
+                            />
+                            <label for="checkPhoneNumber" class="form-check-label ps-2 w-100 text-start fw-semibold">
+                                Xem cả số điện thoại hợp
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-custom">
+                            <i class="bi bi-search"></i>
+                            TRA CỨU NGAY
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-9 text-start">
+                    <p><b>Chú thích:</b></p>
+
+                    <p>
+                        Nếu ngày sinh trên giấy tờ (chứng minh thư, bằng lái, khai sinh…) của bạn khác với ngày sinh
+                        dương lịch
+                        thật thì cuộc đời bạn sẽ có sự xáo trộn từ cả 2 ngày sinh này. Bạn nên tra cứu cả 2 để biết thêm
+                        chi
+                        tiết, tuy nhiên kết quả sẽ thiên về ngày sinh dương lịch thật!
+                    </p>
+
+
+                    <p>
+                        Tên thường dùng là tên mà mọi người thường gọi bạn hoặc một danh xưng bạn thường dùng, tên này
+                        sẽ bù trừ
+                        vào biểu đồ ngày sinh của bạn. Nếu bạn không có tên thường dùng, hệ thống sẽ tự lấy họ tên khai
+                        sinh của
+                        bạn để tính toán trong biểu đồ tổng hợp.
+                    </p>
+
+                    <p>
+                        Số chủ đạo tuy rất quan trọng nhưng không thể hiện hết thông tin thần số học của bạn. Để xem kết
+                        quả tra
+                        cứu chính xác, hãy kết hợp tất cả các chỉ số mà chúng tôi tính toán!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .form-label {
+            font-weight: 600;
+            margin-bottom: 6px;
+            text-align: start;
+            width: 100%;
+        }
+
+        .form-control {
+            padding: 8px 12px;
+        }
+
+        /* Pink “TRA CỨU NGAY” button style */
+        .btn-custom {
+            background-color: var(--main-color); /* Adjust to your desired pink shade */
+            border: none;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 0.75rem 1.25rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+            width: 100%;
+            font-size: 1.25rem;
+        }
+
+        .btn-custom:hover {
+            background-color: #fff; /* Slightly darker on hover */
+            color: var(--main-color);
+        }
+
+        /* Make the checkboxes stand out a bit on dark backgrounds */
+        .form-check-input {
+            width: 1.2em;
+            height: 1.2em;
+        }
+    </style>
+</section>
+
