@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "38ObXYZ18ncWq3Yoo4KF5ynJymK1ynd+GXaAWQOt4cI=",
+  "Hash": "uZebWxmUL5Iwhok5b9xBqE27uNyhLjVl3b4zPOG9ixs=",
   "Source": "tracuuthanso",
   "BasePath": "_content/tracuuthanso",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-cit7h86fsr.gz",
+      "Identity": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-iq7bduk933.gz",
       "SourceId": "tracuuthanso",
       "SourceType": "Discovered",
       "ContentRoot": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/tracuuthanso",
-      "RelativePath": "css/vars#[.{fingerprint=cit7h86fsr}]?.css.gz",
+      "RelativePath": "css/vars#[.{fingerprint=iq7bduk933}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/css/vars.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mzyitqf6fa",
-      "Integrity": "Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c=",
+      "Fingerprint": "ww1jx83mo8",
+      "Integrity": "kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/css/vars.css"
@@ -1487,6 +1487,27 @@
       "OriginalItemSpec": "wwwroot/assets/banner.webp"
     },
     {
+      "Identity": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/bg_customer.webp",
+      "SourceId": "tracuuthanso",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/",
+      "BasePath": "_content/tracuuthanso",
+      "RelativePath": "assets/bg_customer#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wjxmxmtjyt",
+      "Integrity": "pENOE5zyYP/XFwrThlJfEJ7kwLt2UMmrdbt/1z6S/sI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/bg_customer.webp"
+    },
+    {
       "Identity": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/logo-color-min.webp",
       "SourceId": "tracuuthanso",
       "SourceType": "Discovered",
@@ -1585,8 +1606,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cit7h86fsr",
-      "Integrity": "3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0=",
+      "Fingerprint": "iq7bduk933",
+      "Integrity": "Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/vars.css"
@@ -3060,6 +3081,88 @@
       ]
     },
     {
+      "Route": "assets/bg_customer.webp",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/bg_customer.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pENOE5zyYP/XFwrThlJfEJ7kwLt2UMmrdbt/1z6S/sI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 02:25:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pENOE5zyYP/XFwrThlJfEJ7kwLt2UMmrdbt/1z6S/sI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/bg_customer.wjxmxmtjyt.webp",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/bg_customer.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pENOE5zyYP/XFwrThlJfEJ7kwLt2UMmrdbt/1z6S/sI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 02:25:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wjxmxmtjyt"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/bg_customer.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pENOE5zyYP/XFwrThlJfEJ7kwLt2UMmrdbt/1z6S/sI="
+        }
+      ]
+    },
+    {
       "Route": "assets/logo-color-min.webp",
       "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/logo-color-min.webp",
       "Selectors": [],
@@ -3820,13 +3923,13 @@
       ]
     },
     {
-      "Route": "css/vars.cit7h86fsr.css",
-      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-cit7h86fsr.gz",
+      "Route": "css/vars.css",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-iq7bduk933.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010204081633"
+          "Quality": "0.008849557522"
         }
       ],
       "ResponseHeaders": [
@@ -3836,19 +3939,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "97"
+          "Value": "112"
         },
         {
           "Name": "ETag",
-          "Value": "\"Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c=\""
+          "Value": "\"kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 08:34:57 GMT"
+          "Value": "Wed, 05 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3864,26 +3967,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0=\""
+          "Value": "W/\"Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "cit7h86fsr"
-        },
-        {
-          "Name": "label",
-          "Value": "css/vars.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0="
+          "Value": "sha256-Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo="
         }
       ]
     },
     {
-      "Route": "css/vars.cit7h86fsr.css",
+      "Route": "css/vars.css",
       "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/css/vars.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3893,7 +3988,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "116"
+          "Value": "145"
         },
         {
           "Name": "Content-Type",
@@ -3901,11 +3996,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0=\""
+          "Value": "\"Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 08:34:57 GMT"
+          "Value": "Wed, 05 Mar 2025 03:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo="
+        }
+      ]
+    },
+    {
+      "Route": "css/vars.css.gz",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-iq7bduk933.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY="
+        }
+      ]
+    },
+    {
+      "Route": "css/vars.iq7bduk933.css",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-iq7bduk933.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008849557522"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iq7bduk933"
+        },
+        {
+          "Name": "label",
+          "Value": "css/vars.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo="
+        }
+      ]
+    },
+    {
+      "Route": "css/vars.iq7bduk933.css",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/css/vars.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3915,7 +4155,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cit7h86fsr"
+          "Value": "iq7bduk933"
         },
         {
           "Name": "label",
@@ -3923,13 +4163,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0="
+          "Value": "sha256-Fh+/5uYsSuuWjhv07188PYc/0bfijTFGp8gaZDA1ldo="
         }
       ]
     },
     {
-      "Route": "css/vars.cit7h86fsr.css.gz",
-      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-cit7h86fsr.gz",
+      "Route": "css/vars.iq7bduk933.css.gz",
+      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-iq7bduk933.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3938,7 +4178,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "97"
+          "Value": "112"
         },
         {
           "Name": "Content-Type",
@@ -3946,11 +4186,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c=\""
+          "Value": "\"kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 08:34:57 GMT"
+          "Value": "Wed, 05 Mar 2025 03:41:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3968,7 +4208,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cit7h86fsr"
+          "Value": "iq7bduk933"
         },
         {
           "Name": "label",
@@ -3976,144 +4216,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c="
-        }
-      ]
-    },
-    {
-      "Route": "css/vars.css",
-      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-cit7h86fsr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.010204081633"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 08:34:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0="
-        }
-      ]
-    },
-    {
-      "Route": "css/vars.css",
-      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/css/vars.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "116"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 08:34:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3H25tJvn0q+zIuII4h2GCo0tTC0I7lzjpxWlzUep+o0="
-        }
-      ]
-    },
-    {
-      "Route": "css/vars.css.gz",
-      "AssetFile": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-cit7h86fsr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "97"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 08:34:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xin4TO95zlyJPdBofegAbaxrGhAVrAz/Tvf/lNgny8c="
+          "Value": "sha256-kN4AugmIxgmpCacOsghbQrzYdq7+4S4mpe1TJeO3BXY="
         }
       ]
     },

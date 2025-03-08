@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/assets/banner.webp"
     },
     {
+      "Id": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/bg_customer.webp",
+      "PackagePath": "staticwebassets/assets/bg_customer.webp"
+    },
+    {
       "Id": "/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/wwwroot/assets/logo-color-min.webp",
       "PackagePath": "staticwebassets/assets/logo-color-min.webp"
     },

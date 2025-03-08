@@ -15,15 +15,18 @@
             <DependentUpon>Index.cshtml</DependentUpon>
         </Content>
         <Content Update="Views\Home\_LookupForm.cshtml">
-          <DependentUpon>Index.cshtml</DependentUpon>
+            <DependentUpon>Index.cshtml</DependentUpon>
         </Content>
         <Content Update="Views\Home\_Textimony.cshtml">
-          <DependentUpon>Index.cshtml</DependentUpon>
+            <DependentUpon>Index.cshtml</DependentUpon>
+        </Content>
+        <Content Update="Views\Home\_TshWheel.cshtml">
+            <DependentUpon>_Textimony.cshtml</DependentUpon>
         </Content>
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="wwwroot\css\button.css" />
+        <None Include="wwwroot\css\button.css"/>
     </ItemGroup>
 
 </Project>

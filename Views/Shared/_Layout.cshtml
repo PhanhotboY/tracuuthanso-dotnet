@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/css/button.css" asp-append-version="true"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
 </head>
 <body>
 @await Html.PartialAsync("_Header")
@@ -24,6 +26,21 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.slider').slick({
+            infinite: true,      // Loop slides
+            slidesToShow: 1,     // Show one slide at a time
+            slidesToScroll: 1,   // Scroll one slide at a time
+            dots: true,          // Show dot indicators
+            arrows: true,        // Show prev/next arrows
+            autoplay: false,     // Disable auto-play (set true if you want it)
+            fade: false          // If you want a fade transition, set true
+        });
+    });
+</script>
 @await RenderSectionAsync("Scripts", false)
 </body>
 </html>
