@@ -76,7 +76,6 @@
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/tracuuthanso.genruntimeconfig.cache
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/ref/tracuuthanso.dll
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/y9p63fnka5-ytaehollbq.gz
-/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-cit7h86fsr.gz
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/lpc2eh7wtl-um2zuui0kv.gz
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/r4r037glgw-ghw94dp7vl.gz
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/zs0had2ody-xlnrjtihnt.gz
@@ -97,3 +96,5 @@
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/v17gm6imsj-uvybaitati.gz
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/gnheat09yf-uucx9rzl2e.gz
 /home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ib9k9maiwh-ixt7nf38w1.gz
+/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/tracuuthanso.sourcelink.json
+/home/phanhotboy/workspace/iconic/dotnet/tracuuthanso/obj/Debug/net9.0/compressed/ctn5s78fgw-iq7bduk933.gz

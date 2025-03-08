@@ -9,7 +9,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-9 form-container">
-                    <form method="post" action="http://localhost:8080">
+                    <form id="tsh-form" method="post" action="http://localhost:8080">
                         <div class="mb-3">
                             <label for="FullName" class="form-label">Họ tên khai sinh:</label>
                             <input
@@ -105,9 +105,9 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center mt-5">
+            <div class="row justify-content-center mt-4">
                 <div class="col-9 text-start">
-                    <p><b>Chú thích:</b></p>
+                    <p class="fs-6"><b>Chú thích:</b></p>
 
                     <p>
                         Nếu ngày sinh trên giấy tờ (chứng minh thư, bằng lái, khai sinh…) của bạn khác với ngày sinh
@@ -116,7 +116,6 @@
                         chi
                         tiết, tuy nhiên kết quả sẽ thiên về ngày sinh dương lịch thật!
                     </p>
-
 
                     <p>
                         Tên thường dùng là tên mà mọi người thường gọi bạn hoặc một danh xưng bạn thường dùng, tên này
@@ -158,7 +157,6 @@
             font-weight: 600;
             transition: background-color 0.2s ease;
             width: 100%;
-            font-size: 1.25rem;
         }
 
         .btn-custom:hover {
@@ -173,4 +171,3 @@
         }
     </style>
 </section>
-
